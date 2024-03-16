@@ -35,9 +35,9 @@ h1#desc {
 
 .footer {
     background-color: #09062D;
+    display: flex;
+    justify-content:space-evenly;
 }
-
-
 
 .links-footer li a{
     text-decoration: none;
