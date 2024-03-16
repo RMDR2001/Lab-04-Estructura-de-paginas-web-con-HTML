@@ -3,27 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>appweb</title>
-    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Appweb</title>
 </head>
 <body>
     <header>
-        <h1>Servicio de APPWEB</h1>
-        <nav>
-            <ul>
-                <li><a href="https://rmdr2001.github.io/Lab-04-Estructura-de-paginas-web-con-HTML/index.html">Home</a> </li>
-                <li><a href="https://rmdr2001.github.io/Lab-04-Estructura-de-paginas-web-con-HTML/redes.html">Redes</a></li>
-                <li><a href="https://rmdr2001.github.io/Lab-04-Estructura-de-paginas-web-con-HTML/app-web.html">Appweb</a></li>
-            </ul>
+        <h1>DESARROLLADORES CODE 102</h1>
+        <nav class="nav">
+            <a href="/index.html" >Home</a>
+            <a href="/redes.html" >Redes</a>
+            <a href="/app-web.html" >Appweb</a>
         </nav>
         <br>
         <div style="text-align: center;">
-        <img src="https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/web-apps-t.jpg"
+            <img src="https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/web-apps-t.jpg"
             alt="foto principal" width="500">
         </div>
         <hr>
         <div style="text-align: center;">
-        <h1>Desarrollamos software y aplicaciones bajo demanda con agilidad y escalabilidad.</h1>
+            <h1 id="desc">Desarrollamos software y aplicaciones bajo demanda con agilidad y escalabilidad.</h1>
         </div>
     </header>
     <main>
@@ -40,17 +39,17 @@
         </section>
         <section id="Servicios">
             <div style="width: 100%; display: flex;">
-                <div style="width: 33.33%; padding: 10px; box-sizing: border-box;">
+                <div class="services" style="width: 33.33%; padding: 10px; box-sizing: border-box;">
                     <h3>Desarrollo de aplicaciones para iOS y Android</h3>
                     <img src="https://img.freepik.com/vector-gratis/banner-desarrollo-aplicaciones_33099-1720.jpg?w=740&t=st=1710509573~exp=1710510173~hmac=73271ed2fa0dc0e8dc61fd760c9f17946c2bed4f9372ebce10c9f2e5535ec1b4" style="max-width: 100%;">
                     <p>Desarrollo de aplicaciones para iOS y Android. ¡Las principales tecnologías como geolocalización, notificaciones push, Bluetooth e integraciones en un solo lugar!</p>
                 </div>
-                <div style="width: 33.33%; padding: 10px; box-sizing: border-box;">
+                <div class="services" style="width: 33.33%; padding: 10px; box-sizing: border-box;">
                     <h3>Consultoría TI para Startups</h3>
                     <img src="https://img.freepik.com/fotos-premium/inicie-su-puesta-marcha-icono-cohete-que-despega-computadora-portatil-que-simboliza-crecimiento-innovacion-exito-conexion-red-interfaz-virtual-moderna_143683-12407.jpg?w=740"style="max-width: 100%;">
                     <p>Realizar una evaluación para definir una hoja de ruta que aporte resultados en un corto espacio de tiempo.</p>
                 </div>
-                <div style="width: 33.33%; padding: 10px; box-sizing: border-box;">
+                <div class="services" style="width: 33.33%; padding: 10px; box-sizing: border-box;">
                     <h3>Desarrollo de sistemas web - Computación en la nube</h3>
                     <img src="https://img.freepik.com/foto-gratis/composicion-sistema-html-sitios-web_23-2150866278.jpg?t=st=1710509815~exp=1710513415~hmac=c25c67ee9326d2714f2ea5d353bd6e86cea4e0b44966d4c4921ba5125d37953a&w=740" alt="sistemas web img" style="max-width: 100%;">
                     <p>Desarrollo de sistemas web, APIs, Plataforma SaaS, Integraciones y utilidades web. Mantenga sus archivos seguros y pueda acceder a ellos desde cualquier lugar.</p>
@@ -58,8 +57,8 @@
             </div>
         </section>
     </main>
-    <footer>
-        <table>
+    <footer class="footer">
+        <table class="links-footer">
             <tb>
                 <td>
                     <h3>Contacto</h3>

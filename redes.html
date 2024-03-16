@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Redes</title>
 </head>
 <body>
     <header>
-        <h1>Servicio de Redes</h1>
-        <nav>
-            <ul>
-                <li><a href="https://rmdr2001.github.io/Lab-04-Estructura-de-paginas-web-con-HTML/index.html">Home</a> </li>
-                <li><a href="https://rmdr2001.github.io/Lab-04-Estructura-de-paginas-web-con-HTML/redes.html">Redes</a></li>
-                <li><a href="https://rmdr2001.github.io/Lab-04-Estructura-de-paginas-web-con-HTML/app-web.html">Appweb</a></li>
-            </ul>
+        <h1>DESARROLLADORES CODE 102</h1>
+        <nav class="nav">
+            <a href="/index.html" >Home</a>
+            <a href="/redes.html" >Redes</a>
+            <a href="/app-web.html" >Appweb</a>
         </nav>
         <br>
         <div style="text-align: center;">
@@ -22,7 +22,7 @@
         </div>
         <hr>
         <div style="text-align: center;">
-        <h1>Desarrollamos software y aplicaciones bajo demanda con agilidad y escalabilidad.</h1>
+        <h1 id="desc">Desarrollamos software y aplicaciones bajo demanda con agilidad y escalabilidad.</h1>
         </div>
     </header>
     <main>
@@ -39,37 +39,26 @@
         </section>
         <section id="Servicios">
             <div style="width: 100%; display: flex;">
-                <div style="width: 33.33%; padding: 10px; box-sizing: border-box;">
+                <div class="services"  style="width: 33.33%; padding: 10px;">
                     <h3>Instalación de Redes</h3>
                     <img src="https://img.freepik.com/premium-photo/stock-market-map-transaction-analysis-investment-finance-stock-market-financial-foreign-exchange-chart-market-chart-crisis-losses-growth-income-profits-win-trend_1417-21274.jpg?w=826" style="max-width: 100%;">
                     <p>La instalación de redes abarca la planificación, adquisición, configuración y despliegue físico de dispositivos para facilitar la comunicación y el intercambio de datos entre los dispositivos de una organización.</p>
                 </div>
-                <div style="width: 33.33%; padding: 10px; box-sizing: border-box;">
+                <div class="services" style="width: 33.33%; padding: 10px;">
                     <h3>Mantenimiento de Redes</h3>
                     <img src="https://img.freepik.com/free-photo/young-business-engineer-with-tablet-medium-shot_23-2148323483.jpg?t=st=1710519717~exp=1710523317~hmac=4f977cfd8aa215f9119ff7ccbca3f46ee75bcc11f8f9183c26426f7d27981097&w=826"style="max-width: 100%;">
                     <p>El mantenimiento de redes es crucial para asegurar la fiabilidad y seguridad continuas de las redes informáticas. Esto implica supervisión, resolución de problemas, actualizaciones y medidas de seguridad.</p>
                 </div>
-                <div style="width: 33.33%; padding: 10px; box-sizing: border-box;">
+                <div class="services" style="width: 33.33%; padding: 10px;">
                     <h3>Soporte de Redes</h3>
                     <img src="https://img.freepik.com/free-photo/young-engineer-writing-clipboard-medium-shot_23-2148323435.jpg?t=st=1710519785~exp=1710523385~hmac=8b1e3e3e3a124f9bf16bd70b040a586ac502ddd303465bd16bb116a224106be7&w=826" alt="sistemas web img" style="max-width: 100%;">
                     <p>El soporte de redes es crucial para asegurar la eficiencia y seguridad de la red. Involucra asistencia técnica, resolución de problemas, configuración, actualizaciones, capacitación y gestión de incidentes para un funcionamiento óptimo.</p>
                 </div>
             </div>
-            <section id="contacto-y-enlaces" style="display: flex;">
-                <div style="width: 50%; padding: 10px; box-sizing: border-box;">
-                    <h3>Contactos</h3>
-                    <ul>
-                        <li><strong>Whatsapp:</strong> (+51) 934569235 </li>
-                        <li><strong>E-mail:</strong> desarrolladores102@gmail.com</li>
-                        <li><strong>Teléfono:</strong> (01) 98374 983</li>
-                        <li><strong>Dirección:</strong> San Isidro | Lima</li>
-                    </ul>
-                </div>
-            </section>
         </section>
     </main>
-    <footer>
-        <table>
+    <footer class="footer">
+        <table class="links-footer">
             <tb>
                 <td>
                     <h3>Contacto</h3>

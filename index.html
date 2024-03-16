@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Desarrolladores Code 102</title>
 </head>
 <body>
@@ -10,43 +11,38 @@
     <!--HEADER-->
 
     <header>
-        <h1>HOME</h1>
-        <nav>
-            <ul>
-                <li><a href="https://rmdr2001.github.io/Lab-04-Estructura-de-paginas-web-con-HTML/index.html">Home</a> </li>
-                <li><a href="https://rmdr2001.github.io/Lab-04-Estructura-de-paginas-web-con-HTML/redes.html">Redes</a></li>
-                <li><a href="https://rmdr2001.github.io/Lab-04-Estructura-de-paginas-web-con-HTML/app-web.html">Appweb</a></li>
-            </ul>
+        <h1>DESARROLLADORES CODE 102</h1>
+        <nav class="nav">
+            <a href="/index.html" >Home</a>
+            <a href="/redes.html" >Redes</a>
+            <a href="/app-web.html" >Appweb</a>
         </nav>
         <br>
         <div style="text-align: center;">
-        <img src="https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/web-apps-t.jpg"
+            <img src="https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/web-apps-t.jpg"
             alt="foto principal" width="500">
         </div>
         <hr>
         <div style="text-align: center;">
-        <h1>Desarrollamos software y aplicaciones bajo demanda con agilidad y escalabilidad.</h1>
+            <h1 id="desc">Desarrollamos software y aplicaciones bajo demanda con agilidad y escalabilidad.</h1>
         </div>
     </header>
 
     <!--MAIN-->
 
     <main>
-        <section>
-            <table>
-                <tb>
-                    <td>
-                        <img src="https://cdn.pixabay.com/photo/2017/08/25/21/44/excited-2681489_960_720.jpg" alt="Cliente Feliz" width="200">
-                        <h3>NUESTROS CLIENTES</h3>
-                    </td>
-                    <td>
-                        <img src="https://cdn.pixabay.com/photo/2017/08/25/21/44/excited-2681489_960_720.jpg" alt="Cliente Feliz" width="200">
-                        <h3>TESTIMONIOS Y EXPERIENCIAS</h3>
-                    </td>
-                </tb>
-            </table>
+        <section class="seccion1">
+            <div>
+                <img src="https://cdn.pixabay.com/photo/2017/08/25/21/44/excited-2681489_960_720.jpg" alt="Cliente Feliz" width="200">
+                <h3>NUESTROS CLIENTES</h3>
+            </div>
+            <div>
+                <img src="https://cdn.pixabay.com/photo/2017/08/25/21/44/excited-2681489_960_720.jpg" alt="Cliente Feliz" width="200">
+                <h3>TESTIMONIOS Y EXPERIENCIAS</h3>
+            </div>                                                 
+                    
         </section>
-        <section>
+        <section >
             <h2>ELLOS YA CONFÍAN EN NOSOTROS</h2>
             <table>
                 <tb>
@@ -69,8 +65,8 @@
 
     <!--FOOTER-->
 
-    <footer>
-        <table>
+    <footer class="footer">
+        <table class="links-footer">
             <tb>
                 <td>
                     <h3>Contacto</h3>
