@@ -6,7 +6,7 @@ let nombre;
 
 nombre = prompt("Ingrese su nombre...");
 
-validar = confirm("Su nombre es: "+nombre+"?");
+let validar = confirm("Su nombre es: "+nombre+"?");
 
 if (validar == true) {
     alert("Bienvenido "+nombre);
