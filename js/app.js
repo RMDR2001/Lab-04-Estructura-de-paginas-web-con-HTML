@@ -1,3 +1,5 @@
+'use script';
+
 console.log("Se está ejecutando el index.html de DESARROLLADORES CODE 102")
 
 alert("Estás por ingresar a Desarrolladores Code 102");
