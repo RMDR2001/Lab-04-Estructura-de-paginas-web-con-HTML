@@ -16,4 +16,3 @@ if (validar == true) {
     nombre = prompt("Cuál es tu nombre?");
     alert("Bienvenido "+nombre);
 }
-
