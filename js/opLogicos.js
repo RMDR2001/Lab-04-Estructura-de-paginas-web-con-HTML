@@ -5,20 +5,14 @@ function calificar(){
 
     let calificacion = "";
     let estrellas;
-    let ingreso = false;
 
     // Agrega validación en uno de los inputs del usuario
 
-    while (ingreso === false) {
+    while (estrellas == "" || estrellas == null) {
 
         // Solicita al usuario una pregunta relevante para un número
 
         estrellas = prompt("Del 1 al 5, ¿Con cuántas estrellas calificarías la página?");
-        if (estrellas === "" || estrellas === null){
-            ingreso = false;
-        } else {
-            ingreso = true;
-        }
     }
     
     let numEstrellas = parseInt(estrellas);
