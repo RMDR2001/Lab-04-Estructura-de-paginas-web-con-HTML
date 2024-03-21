@@ -1,4 +1,4 @@
-'use script';
+'use strict';
 
 console.log("Se está ejecutando el index.html de DESARROLLADORES CODE 102")
 
