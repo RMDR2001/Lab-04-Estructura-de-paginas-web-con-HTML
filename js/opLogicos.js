@@ -26,7 +26,7 @@ function calificar(){
     let numEstrellas = parseInt(estrellas);
     
     // Utiliza un bucle en tu código JavaScript para mostrar la imagen tantas veces.
-    
+
     for (let i = 1 ; i<=numEstrellas ; i++) {
         calificacion = calificacion+"⭐";
 
@@ -37,5 +37,6 @@ function calificar(){
 
         contador++;
     }
+    
     document.write("Gracias por la calificación<br>Su calificación: "+calificacion+"<br>"+contador+" estrella(s)")
 }
