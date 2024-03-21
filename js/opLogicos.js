@@ -3,16 +3,14 @@
 // FUNCIONES
 function calificar(){
 
-    let calificacion = "";
+    let calificacion;
     let estrellas;
 
     // Agrega validación en uno de los inputs del usuario
 
-    while (estrellas == "" || estrellas == null) {
-
+    while (estrellas == "" || estrellas == null || estrellas <= 0 || estrellas >= 6 ) {
         // Solicita al usuario una pregunta relevante para un número
-
-        estrellas = prompt("Del 1 al 5, ¿Con cuántas estrellas calificarías la página?");
+        estrellas = prompt("Del 1 al 5, ¿Con cuántas estrellas calificarías la página?");        
     }
     
     let numEstrellas = parseInt(estrellas);
