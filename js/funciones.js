@@ -29,3 +29,7 @@ function saludar(){
         alert("Bienvenido "+nombre+"!");
     }
 }
+
+function getNombre(){
+    return nombre;
+}
