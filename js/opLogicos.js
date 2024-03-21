@@ -6,8 +6,6 @@ function calificar(){
     let calificacion = "";
     let estrellas;
     let ingreso = false;
-        
-    let contador = 0;
 
     // Agrega validación en uno de los inputs del usuario
 
@@ -28,15 +26,14 @@ function calificar(){
     // Utiliza un bucle en tu código JavaScript para mostrar la imagen tantas veces.
 
     for (let i = 1 ; i<=numEstrellas ; i++) {
-        calificacion = calificacion+"<img src='https://img.freepik.com/vector-gratis/estrella-metal-3d-aislada_1308-115283.jpg' width='50'>";
+        calificacion = calificacion+"<img src='https://img.freepik.com/vector-gratis/estrella-metal-3d-aislada_1308-115283.jpg' width='50'>"+i;
 
         /********************************************************************************************************
         "Extender los objetivos" 
         A medida que visualizes cada imagen, muestra un contador al lado que indica el número de la imagen.
         *********************************************************************************************************/
 
-        contador++;
     }
     
-    document.write("Gracias por la calificación<br>Su calificación: "+calificacion+"<br>"+contador+" estrella(s)")
+    document.write("Gracias por la calificación<br>Su calificación: "+calificacion)
 }
