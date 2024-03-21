@@ -28,7 +28,7 @@ function calificar(){
     // Utiliza un bucle en tu código JavaScript para mostrar la imagen tantas veces.
 
     for (let i = 1 ; i<=numEstrellas ; i++) {
-        calificacion = calificacion+"⭐";
+        calificacion = calificacion+"<img src='https://img.freepik.com/vector-gratis/estrella-metal-3d-aislada_1308-115283.jpg' width='50'>";
 
         /********************************************************************************************************
         "Extender los objetivos" 
